@@ -38,6 +38,7 @@
     transition: height .3s ease-in;
     right: 0;
     z-index: $filmstripVideosZ;
+    right: auto;
 
     &.reduce-height {
         height: calc(100% - #{$newToolbarSizeWithPadding});
@@ -77,6 +78,7 @@
     #filmstripLocalVideo {
         align-self: initial;
         bottom: 5px;
+        left: 4rem;
         display: flex;
         flex-direction: column-reverse;
         height: auto;
